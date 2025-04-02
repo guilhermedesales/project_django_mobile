@@ -10,28 +10,43 @@ color: #30426b;
     background-color: rgb(250, 250, 250);
     /*padding: 10px;*/
     width: 100%;
-    height: 600px;
-    margin-top: 50%;
+    height: 700px;
+    /*margin-top: 50%;*/
     border-top-right-radius: 150px;
     border-top-left-radius: 150px;
     
     text-align: center;
     padding-top: 80px;
     font-family: Helvetica, sans-serif;
-    font-weight: lighter;
+
 }
 
-.logo{
-
-    background-color: aliceblue;
+.logo {
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-top: 100px;
+    height: 100px;
+}
+
+img{
+
+width: 170px;
+height: 190px;
 
 }
+
 
 h2{
 
+    font-size: 26px;
     margin-bottom: 70px;
+    font-weight: normal;
+
+}
+strong{
+
+    font-size: 28px;
 
 }
 
@@ -48,6 +63,29 @@ input{
     
 }
 
+h3{
+
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+h3 a{
+text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.registrar_bold{
+
+    font-size: large;
+    font-weight: bold;
+
+}
+
 button{
 
     border-radius: 50px;
@@ -56,5 +94,6 @@ button{
     width: 80%;
     height: 50px;
     font-size: 35px;
+    margin-top: 60px;
 
 }
