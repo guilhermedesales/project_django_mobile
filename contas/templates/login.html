@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/css/login.css">
+</head>
+<body>
+
+    <div class="logo">
+        <img src="/contas/imgs/logo.png" alt="Logo Maracujina">
+    </div>
+
+    <div class="container">
+        <h2>Entre para continuar sua <br> Jornada </h2>
+
+        <form method="POST">
+            {% csrf_token %}    <!--proteção de ataques CSRF-->
+            <input type="text" name="username" required>
+            <input type="password" name="password" required>
+            <h3>Esqueceu a senha</h3>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
