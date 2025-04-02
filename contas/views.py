@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def login_view(request):
-    return render(request, "login.html") #chama o html
+    return render(request, "index.html") #chama o html
